@@ -1,0 +1,189 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<--- Navigation Bar -->
+<nav>
+  <div class="logo">Nithin</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#tech1">Skills</a>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</nav>
+
+
+
+
+
+  
+<section id="hero"class="hero">
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+
+    <h1>Hello, I'm Nithin Sargu</h1>
+    <p>B.Tech 3rd Year Student | Aspiring Frontend Developer</p>
+    <div class="btn-group">
+      <a href="resume.pdf" download="resume" class="btn" target="_blank">Download Resume</a>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-img-box">
+      <img src="me.jpg" alt="Your Name" class="about-img">
+    </div>
+    <div class="about-details">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m Your Name. I am a B.Tech 3rd year student passionate about coding, web development, and building innovative digital projects.<br /><br />
+        I enjoy blending design and technology—always curious, always learning.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div id="tech1"class="tech"> 
+<section id="skills" class="skills-section">
+  <h2>Technical Skills</h2>
+  
+  <div class="skill">
+    <div class="skill-details">
+      <span>HTML</span>
+      <span>90%</span>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-progress html"></div>
+    </div>
+  </div>
+  
+  <div class="skill">
+    <div class="skill-details">
+      <span>CSS</span>
+      <span>85%</span>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-progress css"></div>
+    </div>
+  </div>
+  
+  <div class="skill">
+    <div class="skill-details">
+      <span>JavaScript</span>
+      <span>75%</span>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-progress js"></div>
+    </div>
+  </div>
+  
+  <div class="skill">
+    <div class="skill-details">
+      <span>React</span>
+      <span>70%</span>
+    </div>
+    <div class="skill-bar">
+      <div class="skill-progress react"></div>
+    </div>
+  </div>
+   <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+</section>
+</div>
+
+ 
+
+
+
+
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1 Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>A responsive web app built with HTML, CSS, and JavaScript—features TIC_TAC_TOE.</p>
+          <a href="https://github.com/nithin740" target="_blank" class="project-link">View Code</a>
+        </div>
+      </div>
+        
+      
+       <div class="project-card">
+        <img src="project2.jpg" alt="Project 2 Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>Purple-themed landing page with scroll animations, built for Portfolio using vanilla JavaScript.</p>
+          <a href="https://github.com/nithin740" target="_blank" class="project-link">View Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project3.jpg" alt="Project 3 Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>Project Three</h3>
+          <p>Simple to-do app featuring theme switching and offline storage, made with HTML, CSS & JS.</p>
+          <a href="https://github.com/nithin740" target="_blank" class="project-link">View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: sarugunithin.@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nithin-sargu-163018268/" target="_blank">View Profile</a></p>
+      <p>GitHub: <a href="https://github.com/nithin740" target="_blank">View Projects</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer Section -->
+<footer class="footer-section">
+  <div class="footer-container">
+    <p>© 2025 Sargu Nithin | B.Tech Portfolio</p>
+    <div class="footer-social">
+      <a href="https://github.com/nithin740" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/nithin-sargu-163018268/" target="_blank">LinkedIn</a>
+      <a href=" https://mail.google.com/mail/u/0/#inbox" target="_blank">Email</a>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
